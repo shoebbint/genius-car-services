@@ -5,6 +5,7 @@ import expert3 from '../../../../src/images/experts/expert-3.jpg';
 import expert4 from '../../../../src/images/experts/expert-4.jpg';
 import expert5 from '../../../../src/images/experts/expert-5.jpg';
 import expert6 from '../../../../src/images/experts/expert-6.png';
+import MyLocation from '../../MyLocation/MyLocation';
 import Expert from '../Expert/Expert';
 const experts=[
     {id:1,name:'will smith',img:expert1},
@@ -23,6 +24,9 @@ const Experts = () => {
                                 experts.map(expert=><Expert key={expert.id}
                                 expert={expert}> </Expert>)
                             }
+                        </div>
+                        <div className="container my-5 ">
+                            <MyLocation></MyLocation>
                         </div>
         </div>
     );
