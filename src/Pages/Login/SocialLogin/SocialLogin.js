@@ -28,7 +28,7 @@ const SocialLogin = () => {
     else if (user2) {
         const email = user2.email;
         navigate(from, { replace: true });
-        axios.post('http://localhost:5000/login', { email })
+        axios.post('https://genius-car-server-nu-blond.vercel.app/login', { email })
             .then(function (response) {
                 localStorage.setItem('accessToken', response.data.accessToken);
 

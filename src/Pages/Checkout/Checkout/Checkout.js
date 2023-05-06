@@ -37,7 +37,7 @@ const Checkout = () => {
             phone:e.target.phone.value,
         };
         console.log(order)
-    axios.post('http://localhost:5000/order', order)
+    axios.post('https://genius-car-server-nu-blond.vercel.app/order', order)
           .then(function (response) {
 const {data}=response;
 if(data.insertedId){
