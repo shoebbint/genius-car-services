@@ -1,0 +1,25 @@
+[debug] [2023-05-07T06:40:23.483Z] ----------------------------------------------------------------------
+[debug] [2023-05-07T06:40:23.484Z] Command:       D:\laragon\bin\nodejs\node-v14\node.exe D:\laragon\bin\nodejs\node-v14\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-07T06:40:23.485Z] CLI Version:   10.9.2
+[debug] [2023-05-07T06:40:23.485Z] Platform:      win32
+[debug] [2023-05-07T06:40:23.485Z] Node Version:  v14.16.1
+[debug] [2023-05-07T06:40:23.486Z] Time:          Sun May 07 2023 12:40:23 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-05-07T06:40:23.486Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-07T06:40:23.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-07T06:40:23.544Z] > authorizing via signed-in user (shoebbint@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\Reacts\genius-car-services
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
