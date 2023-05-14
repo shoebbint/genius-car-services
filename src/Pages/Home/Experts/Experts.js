@@ -25,7 +25,7 @@ const Experts = () => {
                                 expert={expert}> </Expert>)
                             }
                         </div>
-                        <div className="container my-5 ">
+                        <div className=" my-5  container ">
                             <MyLocation></MyLocation>
                         </div>
         </div>
